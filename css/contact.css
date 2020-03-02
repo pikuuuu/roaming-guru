@@ -16,74 +16,79 @@
   list-style: none;
   display: flex;
   padding: 20px;
+  margin: 0 60px 0 0;
 }
 .navbar_list a {
   text-decoration: none;
   padding: 20px;
   color: grey;
   font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto";
   text-transform: uppercase;
+  font-size: 18px;
 }
 .navbar_list a:hover {
   color: #ff4500;
 }
-.logo a {
-  padding: 20px;
-}
-.body img {
-  height: 400px;
-  width: 100%;
-  object-fit: cover;
+.logo img {
+  height: 80px;
+  width: 225px;
+  margin: 0 0 0 64px;
 }
 .title {
-  position: absolute;
-  text-align: center;
-  top: 35%;
-  left: 40%;
-  color: #fff;
-  font-size: 90px;
-  font-weight: bold;
+  text-transform: uppercase;
   font-family: "Roboto";
+  color: coral;
 }
-.about-title {
-  text-align: center;
+.form {
+  width: 419px;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 60px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 0px 10px 5px rgb(223, 223, 223);
+}
+.form input {
   font-family: "Roboto";
-  padding: 50px 0 10px;
+  font-size: 14px;
 }
-.para {
-  text-align: center;
+.form label {
+  font-family: Roboto;
+  font-size: 18px;
+}
+#exampleInputEmail1 {
+  width: 335px;
+}
+#exampleInputEmail2 {
+  height: 200px;
+  resize: none;
+  width: 335px;
+}
+.container {
+  width: 390px;
+  margin-top: 150px;
+  float: right;
+}
+.minitext {
   font-family: "Roboto";
-  margin: 0 200px 0 200px;
+  color: #484848;
+  font-size: 28px;
 }
-.team-title {
-  text-align: center;
-  font-family: "Roboto";
-  padding: 50px 0 10px;
-}
-.row {
-  padding: 50px 40px 15px 40px;
-}
-.row img {
-  text-align: center;
-  height: 300px;
-  width: 400px;
-  object-fit: cover;
-  margin: 0 20px 0 20px;
-}
-.row h5 {
-  text-align: center;
-  font-family: "Roboto";
-  font-weight: bold;
-  color: #808080;
-  margin-top: 20px;
-}
-.team p {
+.text {
   font-family: "Roboto";
   font-size: 18px;
-  margin: 0 40px 0 40px;
-  text-align: center;
   color: #484848;
+}
+.btn {
+  text-align: center;
+  background-color: coral;
+  border: none;
+  margin: 10px 0px;
+  font-family: "Roboto";
+  width: -webkit-fill-available;
+}
+.btn:hover {
+  background-color: crimson;
 }
 /* ------Footer----- */
 .footer {
@@ -213,9 +218,6 @@ input.form-control {
   position: absolute;
   margin: 8px 1095px 0;
 }
-/*--------------Responsive-----------------*/
-
-/*---------Navbar------------*/
 @media screen and (max-width: 900px) {
   .line1 {
     display: none;
@@ -225,12 +227,5 @@ input.form-control {
   }
   .line3 {
     display: none;
-  }
-}
-@media screen and (max-width: 900px) {
-  .para {
-    text-align: center;
-    font-family: "Roboto";
-    margin: 0 100px 0 100px;
   }
 }

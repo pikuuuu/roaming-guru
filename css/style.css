@@ -43,7 +43,7 @@
   color: #808080;
 }
 .banner-content {
-  margin: 0 400px 0 400px;
+  margin: 0 400px 0 450px;
   font-size: 18px;
   font-family: "Roboto";
   color: #484848;
@@ -89,6 +89,7 @@
   font-family: "Roboto";
   color: #484848;
   text-align: center;
+  margin: 0 40px 15px 40px;
 }
 .amount {
   font-size: 24px;
@@ -112,14 +113,13 @@
   padding: 20px;
 }
 /* ------Footer----- */
-.footer-container {
+.footer {
+  width: 100%;
+  display: inline-block;
   width: 100%;
   background-color: azure;
   margin-top: 50px;
-}
-.footer {
-  margin: 80px 64px 64px;
-  display: inline-block;
+  padding: 35px;
 }
 img.logo {
   height: 75px;
@@ -177,19 +177,21 @@ img.logo {
   font-family: "Roboto";
   color: #484848;
   margin: 30px 0 0 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
-input.form-control{
+input.form-control {
   font-size: 14px;
   font-family: "Roboto";
   margin: 10px;
   width: 300px;
 }
-}
+
 .newsletter {
   margin: 20px;
 }
 
-.button{
+.button {
   display: block;
   text-align: center;
   background-color: #f58634;
@@ -206,17 +208,64 @@ input.form-control{
   padding: 8px;
   margin: -48px 0 0 220px;
 }
-.icons{
+.icons {
   margin: 10px 0 0 10px;
   display: inline-block;
 }
-.icons i{
+.icons i {
   padding: 10px;
 }
-.rights{
+.rights {
   font-size: 14px;
   font-family: "Roboto";
   color: #484848;
-  margin: 180px 100px 0 -149px;
   text-align: center;
+  margin-top: 20px;
+}
+.line1 {
+  border-left: 2px solid #caccce;
+  height: 150px;
+  position: absolute;
+  margin: 8px 214px 0 456px;
+}
+.line2 {
+  border-left: 2px solid #caccce;
+  height: 150px;
+  position: absolute;
+  margin: 8px 764px;
+}
+.line3 {
+  border-left: 2px solid #caccce;
+  height: 150px;
+  position: absolute;
+  margin: 8px 1095px 0;
+}
+
+/*--------------Responsive-----------------*/
+
+/*---------Navbar------------*/
+@media screen and (max-width: 900px) {
+  .navbar {
+    display: hide;
+  }
+}
+@media screen and (max-width: 900px) {
+  .banner-content {
+    margin: 0 150px 0 150px;
+    font-size: 18px;
+    font-family: "Roboto";
+    color: #484848;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 900px) {
+  .line1 {
+    display: none;
+  }
+  .line2 {
+    display: none;
+  }
+  .line3 {
+    display: none;
+  }
 }
