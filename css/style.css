@@ -63,8 +63,8 @@
 .img-section {
   display: block;
   margin: auto;
-  height: 200px;
-  width: 210px;
+  height: 100px;
+  width: 100px;
   text-align: center;
   border-radius: 50%;
   object-fit: cover;
@@ -75,43 +75,48 @@
   font-weight: bold;
   font-family: "Roboto";
   color: #808080;
-  margin: 20px 0 0 0;
+  margin-top: 20px;
   text-align: center;
 }
 .job {
   font-size: 14px;
   font-family: "Roboto";
   color: #808080;
-  text-align: center;
-}
-.about {
-  font-size: 18px;
-  font-family: "Roboto";
-  color: #484848;
-  text-align: center;
-  margin: 0 40px 15px 40px;
 }
 .amount {
   font-size: 24px;
   font-family: "Roboto";
   color: #014421;
   text-align: center;
-  margin: 0 0 80px 0;
 }
-.btn {
-  display: block;
-  text-align: center;
+
+.btn-yellow {
+  color: #fff;
   background-color: #f58634;
-  border: none;
-  margin: auto;
-  width: 150px;
-  font-family: "Roboto";
+  border-color: #f58634;
+  margin-top: 20px;
+  font-family: "roboto";
 }
-.lorem {
-  font-size: 18px;
-  text-align: left;
-  padding: 20px;
+
+.btn-yellow:hover {
+  color: #fff;
+  background-color: #f58634;
+  border-color: #eb7928;
 }
+
+.btn-yellow:not(:disabled):not(.disabled):active,
+.btn-yellow:not(:disabled):not(.disabled).active,
+.show > .btn-yellow.dropdown-toggle {
+  color: #fff;
+  background-color: #f58634;
+  border-color: #f58634;
+}
+
+.btn-yellow:focus,
+.btn-yellow.focus {
+  box-shadow: 0 0 0 0.2rem #f5863470;
+}
+
 /* ------Footer----- */
 .footer {
   width: 100%;
