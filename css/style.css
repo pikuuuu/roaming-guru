@@ -44,7 +44,7 @@ body {
 .works-heading {
   color: #808080;
 }
-.how-it-works i {
+.icon {
   display: block;
   text-align: center;
   color: #f58634;
@@ -290,6 +290,9 @@ input.form-control {
   display: inline-block;
 }
 .icons i {
+  margin-right: 15px;
+}
+.end-icons {
   padding: 10px;
 }
 .rights {
@@ -298,24 +301,6 @@ input.form-control {
   color: #484848;
   text-align: center;
   margin-top: 20px;
-}
-.line1 {
-  border-left: 2px solid #caccce;
-  height: 150px;
-  position: absolute;
-  margin: 8px 214px 0 456px;
-}
-.line2 {
-  border-left: 2px solid #caccce;
-  height: 150px;
-  position: absolute;
-  margin: 8px 764px;
-}
-.line3 {
-  border-left: 2px solid #caccce;
-  height: 150px;
-  position: absolute;
-  margin: 8px 1095px 0;
 }
 
 /*--------------Responsive-----------------*/
@@ -333,16 +318,5 @@ input.form-control {
     font-family: "Roboto";
     color: #484848;
     text-align: center;
-  }
-}
-@media screen and (max-width: 900px) {
-  .line1 {
-    display: none;
-  }
-  .line2 {
-    display: none;
-  }
-  .line3 {
-    display: none;
   }
 }
