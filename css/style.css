@@ -38,6 +38,28 @@ body {
   width: 225px;
   margin: 0 0 0 64px;
 }
+
+/* ----How it works------ */
+
+.works-heading {
+  color: #808080;
+}
+.how-it-works i {
+  display: block;
+  text-align: center;
+  color: #f58634;
+}
+.how-it-works h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #484848;
+}
+
+.how-it-works p {
+  margin: 10px 40px;
+  color: #484848;
+  font-size: 18px;
+}
 /* -----Testimonials------- */
 .slider-area {
   background: #262626;
@@ -84,6 +106,7 @@ body {
 .carousel-indicators {
   bottom: -35px;
 }
+
 .banner_section h3 {
   text-align: center;
   text-transform: uppercase;
